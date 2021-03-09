@@ -3,7 +3,8 @@ Ansible Demo for ServiceNow
 
 Here is a list of Ansible Playbooks to Demo use cases for ServiceNow.
 
-You will just need to provide credentials for your developer instance of ServiceNow.  This repo was tested against Quebec release.
+You will just need to provide credentials for your developer instance of ServiceNow.  
+This repo was tested against Quebec release.
 
 keepalive.yml is used to keep the developer instance of ServiceNow active.
 
