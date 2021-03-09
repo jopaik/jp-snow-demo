@@ -1,0 +1,8 @@
+---
+# vars file for ansible-servicenow-cmdb
+
+snow_table: cmdb_rh_demo
+snow_inc_no: INC0010001
+SN_USERNAME: admin
+SN_PASSWORD: password
+SN_INSTANCE: dev#####

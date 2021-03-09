@@ -1,0 +1,17 @@
+---
+- name: DELETE AN INCIDENT
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+    - default_vars.yml
+
+  tasks:
+    - name: DELETE THE INCIDENT
+      snow_record:
+        username: "{{ SN_USERNAME }}"
+        password: "{{ SN_PASSWORD }}"
+        instance: "{{ SN_INSTANCE }}"
+        state: absent
+        table: incident
+        number: "{{ snow_inc_no }}"
